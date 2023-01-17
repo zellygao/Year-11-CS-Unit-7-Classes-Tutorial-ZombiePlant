@@ -10,10 +10,10 @@ The ZombiePlant class provides a constructor and the following methods.
 * isDangerous, which returns true if the plant requires treatment, false otherwise.
 * treat, which administers a treatment with the specified potency.
 
-| Statements and Expressions  | Value Returned (blank if no value) | Comment      |
-| --------------------------- | ---------------------------------- | ------------ |
-| ZombiePlant plant = new ZombiePlant(10, 3);               | Content Cell                       | The plant requires treatments with a potency <= 10. The plant initially needs 3 successful treatments to be cured.             |
-| Content Cell                | Content Cell                       |              |
+| Statements and Expressions                  | Value Returned (blank if no value) | Comment                  |
+| ------------------------------------------- | ---------------------------------- | ------------------------ |
+| ZombiePlant plant = new ZombiePlant(10, 3); |                                    | The plant requires treatments with a potency <= 10. The plant initially needs 3 successful treatments to be cured.             |
+| Content Cell                                |                     |              |
 
 The following table contains a sample code execution sequence and the corresponding results. 
 
