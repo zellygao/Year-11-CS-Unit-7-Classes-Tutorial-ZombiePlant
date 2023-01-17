@@ -12,7 +12,7 @@ The ZombiePlant class provides a constructor and the following methods.
 
 | Statements and Expressions  | Value Returned (blank if no value) | Comment      |
 | --------------------------- | ---------------------------------- | ------------ |
-| Content Cell                | Content Cell                       | The plant requires treatments with a potency <= 10. The plant initially needs 3 successful treatments to be cured.             |
+| ZombiePlant plant = new ZombiePlant(10, 3);               | Content Cell                       | The plant requires treatments with a potency <= 10. The plant initially needs 3 successful treatments to be cured.             |
 | Content Cell                | Content Cell                       |              |
 
 The following table contains a sample code execution sequence and the corresponding results. 
