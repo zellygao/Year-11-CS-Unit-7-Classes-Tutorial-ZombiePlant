@@ -11,7 +11,7 @@ The ZombiePlant class provides a constructor and the following methods.
 * treat, which administers a treatment with the specified potency.
 
 | Statements and Expressions  | Value Returned (blank if no value) | Comment      |
-| -------------               | -------------                      |              |
+| --------------------------- | ---------------------------------- | ------------ |
 | Content Cell                | Content Cell                       |              |
 | Content Cell                | Content Cell                       |              |
 
