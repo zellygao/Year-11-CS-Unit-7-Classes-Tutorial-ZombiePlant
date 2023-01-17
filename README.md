@@ -10,6 +10,11 @@ The ZombiePlant class provides a constructor and the following methods.
 * isDangerous, which returns true if the plant requires treatment, false otherwise.
 * treat, which administers a treatment with the specified potency.
 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
 The following table contains a sample code execution sequence and the corresponding results. 
 
 ![image](https://user-images.githubusercontent.com/57818506/212821175-23b4e32d-b8aa-4f98-9285-c46594092e06.png)
