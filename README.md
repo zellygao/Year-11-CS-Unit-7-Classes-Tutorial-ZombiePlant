@@ -6,6 +6,7 @@ You should pass all of the tests in the ZombiePlantTester class (provided).
 This question involves the implementation of a zombie plant treatment system that is represented by the ZombiePlant class. A ZombiePlant object is created with parameters that specify the maximum potency for a successful treatment and the initial number of successful treatments required to cure the plant.
 The ZombiePlant class provides a constructor and the following methods.
 
+* getPotency, which returns the degree of potency that a treatment requires in order to be successful. 
 * treatmentsNeeded, which returns the number of successful treatments required to cure the plant.
 * isDangerous, which returns true if the plant requires treatment, false otherwise.
 * treat, which administers a treatment with the specified potency.
@@ -15,6 +16,7 @@ The following table contains a sample code execution sequence and the correspond
 | Statements and Expressions                  | Value Returned (blank if no value) | Comment                  |
 | ------------------------------------------- | ---------------------------------- | ------------------------ |
 | ZombiePlant plant = new ZombiePlant(10, 3); |                                    | The plant requires treatments with a potency <= 10. The plant initially needs 3 successful treatments to be cured.             |
+| plant.getPotency()                          | 10                                 | The plant requires treatments with a potency of <= 10.
 | plant.treatmentsNeeded();                   | 3                                  | The plant has not yet been treated, so it still needs 3 treatments to be cured.             |
 | plant.isDangerous();                        | true                               | The plant still needs at least 1 treatment to be cured, so it is dangerous.
 | plant.treat(7);                             |                                    | The treatment potency is <= 10, so the treatment is successful
