@@ -17,7 +17,7 @@ public class ZombiePlantTester {
     @Test
     public void TestConstructor() {
         setUp();
-        assertEquals(10, zombiePlant.getPotencyRequired(), "Ensure that your constructor is implemented correctly!");
+        assertEquals(10, zombiePlant.getPotency(), "Ensure that your constructor is implemented correctly!");
         assertEquals(3, zombiePlant.treatmentsNeeded(), "Ensure that your constructor is implemented correctly!");
         tearDown();
     }
