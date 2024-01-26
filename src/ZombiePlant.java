@@ -10,20 +10,30 @@ public class ZombiePlant {
         return maxpotency;
     }
     public int treatmentsNeeded(){
+        if(initialtreatments<0){
+            return initialtreatments=0;
+        }
         return initialtreatments;
     }
-    public boolean isDangerous(){
-        return(initialtreatments>0);
-    }
-    public void treat (int treatmentpotency){
-        if(treatmentpotency<=0){
-
+    public boolean isDangerous() {
+        if(initialtreatments>0){
+            return true;
         }
-        else if(treatmentpotency<=maxpotency&& initialtreatments>0){
+        return false;
+    }
+
+    public void treat (int treatmentpotency){
+        //if(treatmentpotency<0){
+
+        //}
+         if(treatmentpotency <= maxpotency && treatmentpotency>0){
             initialtreatments--;
         }
-        else{
+        else if (treatmentpotency>maxpotency && treatmentpotency>0){
             initialtreatments++;
+        }
+        else if (treatmentpotency==0){
+            return;
         }
     }
 
